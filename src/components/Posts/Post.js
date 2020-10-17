@@ -3,9 +3,11 @@ import Comments from '../Comments/Comments';
 import LikeSection from './LikeSection';
 import PostHeader from './PostHeader';
 
-const Post = props => {
+const Post = (props) => {
   // 🔥 Make sure the parent of Post is passing the right props!
   const { post, likePost } = props;
+
+  
 
   return (
     <div className='post-border'>
